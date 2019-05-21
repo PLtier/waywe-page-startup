@@ -12,17 +12,13 @@ document
   .addEventListener("click", scrollToRegister);
 
 //basic protection for mail
-const sendMailNormal = () => {
-  let username = "maciej.jalocha.pl",
+
+const sendMail = () => {
+  let username = "wayweapp",
     domain = "gmail.com";
   window.location.href =
     "mailto:" + username.substring(0) + "@" + domain.substring(0);
 };
+document.getElementById("fake_address").addEventListener("click", sendMail);
 
-document
-  .getElementById("fake_address")
-  .addEventListener("click", sendMailNormal);
-
-document
-  .getElementById("business-mail")
-  .addEventListener("click", sendMailNormal);
+document.getElementById("business-mail").addEventListener("click", sendMail);
