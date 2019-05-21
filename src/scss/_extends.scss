@@ -1,0 +1,27 @@
+$color_mine_shaft_approx: #303030;
+//@extend-elements
+//original selectors
+//input, button
+%extend_1 {
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+//original selectors
+//button, input
+%extend_2 {
+	border: none;
+	background: none;
+	overflow: visible;
+}
+
+//original selectors
+//h1, h2, h3
+%extend_3 {
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	line-height: 1.3;
+	color: $color_mine_shaft_approx;
+}
