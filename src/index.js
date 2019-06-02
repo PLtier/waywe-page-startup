@@ -36,5 +36,5 @@ const validateEmail = e => {
 
 let form = document.getElementsByClassName("form");
 Array.from(form).forEach(function(element) {
-  element.addEventListener("click", validateEmail);
+  element.addEventListener("submit", validateEmail);
 });
