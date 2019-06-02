@@ -22,3 +22,5 @@ const sendMail = () => {
 document.getElementById("fake_address").addEventListener("click", sendMail);
 
 document.getElementById("business-mail").addEventListener("click", sendMail);
+
+let validator = require("email-validator");

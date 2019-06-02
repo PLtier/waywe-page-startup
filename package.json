@@ -8,7 +8,9 @@
     "build": "parcel build index.html",
     "toCss": "sass --watch src/scss:src/"
   },
-  "dependencies": {},
+  "dependencies": {
+    "email-validator": "2.0.4"
+  },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "cssnano": "^4.1.10",

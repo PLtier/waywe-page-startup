@@ -7,6 +7,12 @@ $cta_orange: #fb8b24;
 $cta_orange_dark: #CE721E;
 $black_overlay: rgba(62,57,53,0.75);
 
+
+figure { 
+  display: block;
+  margin: none;
+}
+
 .header-55 {
 	z-index: 1000;
 }
@@ -197,19 +203,36 @@ underline {
 .main-text,
 .support-text p {
 	letter-spacing: 0.03em;
-	font-size: 17.5px;
+	font-size: 1.094em;
 	line-height: 1.5em;
+	
 }
 .main-text{
 	border: 5px solid #f8f8f8;
 	padding: 10px;
 	border-radius: 10px;
 }
+@media screen and (max-height: 800px){
+	main .main-text{
+		font-size: 1em;
+	}
+}
+@media screen and (max-height: 700px){
+	.header-54__left_content main .main-text{
+		font-size: 0.95em;
+	}
+}
 
 @media(min-width: 900px){
 	.main-text{
 		position: relative;
 		left: -15px;
+	}
+}
+
+@media(max-width: 900px){
+	body .header-54__left_content main .main-text{
+		font-size: 1.094em;
 	}
 }
 
