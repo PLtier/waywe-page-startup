@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-   <url>
-
-      <loc>https://wayweapp.com/</loc>
-
-      <lastmod>2019-05-27</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>1.0</priority>
-
-   </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://wayweapp.com</loc>
+    <image:image>
+      <image:loc>https://wayweapp.com/appSs.634aea53.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/appStore.8eccddfc.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/cloud.11cf6cab.png</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/facebook.e84fcb13.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/googleStore.7018233f.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/grid.8cb3868c.png</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/instagram.7f11e2ea.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/sun.90593ca4.png</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/testfourbig.fb33c27c.jpg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/triangle.e8ba9b69.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/twitter.8a2fad7e.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/wayweLogoFinall.df504861.svg</image:loc>
+      <image:title>Waywe App Screen shoot</image:title>
+    </image:image>
+  </url> 
 </urlset> 

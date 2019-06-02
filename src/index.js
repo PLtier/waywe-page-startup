@@ -1,3 +1,5 @@
+let validator = require("email-validator");
+
 //by clicking sign up button in the header you will be moved to email section
 const scrollToRegister = () => {
   let element = document.getElementById("footer");
@@ -23,4 +25,16 @@ document.getElementById("fake_address").addEventListener("click", sendMail);
 
 document.getElementById("business-mail").addEventListener("click", sendMail);
 
-let validator = require("email-validator");
+const validateEmail = e => {
+  if (validator.validate(document.getElementById("email").value)) {
+    console.log("udalo się");
+  } else {
+    e.preventDefault();
+    alert("Wrong email");
+  }
+};
+
+let form = document.getElementsByClassName("form");
+Array.from(form).forEach(function(element) {
+  element.addEventListener("click", validateEmail);
+});
