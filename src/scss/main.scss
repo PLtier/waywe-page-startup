@@ -1,5 +1,6 @@
 @import "_extends.scss";
 @import "_mixins.scss";
+@import "_typography.scss";
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -130,7 +131,7 @@ p a:hover {
 	}
 }
 .heading--accent {
-	font-size: 3em;
+	font-size: 3.6em;
 }
 @media (max-width: 768px) {
 	.heading--accent {
@@ -665,11 +666,17 @@ button.button {
 }
 
 .header-54__left_content {
-	max-width: 500px;
+	max-width: 600px;
 }
 
+@media (min-width: 900px){.header-54__left_content{
+	position: relative;
+	left: 50px;
+}}
+
+
 .header-54__text {
-	max-width: 400px;
+	max-width: 600px;
 	margin-bottom: 40px;
 }
 @media (max-width: 900px) {
@@ -718,7 +725,7 @@ button.button {
 }
 
 .header-55__heading {
-	max-width: 580px;
+	
 	margin-left: auto;
 	margin-right: auto;
 }
