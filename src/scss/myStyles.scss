@@ -1,12 +1,6 @@
 @import "_mixins.scss";
 @import "_typography.scss";
-$accent_green: #5BCC38;
-$white: white;
-$accent_darkgreen: #3CB10F;
-$cta_orange: #fb8b24;
-$cta_orange_dark: #CE721E;
-$black_overlay: rgba(62,57,53,0.75);
-
+@import "_variables.scss";
 
 figure { 
   display: block;
@@ -241,7 +235,7 @@ underline {
 
 
 .support-text p {
-	font-size: 20px !important;
+	font-size: 1.25em !important;
 }
 
 .about__price__wrapper {
@@ -295,5 +289,12 @@ underline {
 #content{
 	max-width: 1440px;
     margin: 0 auto;
-    box-shadow: 0 16px 10px #E3E7EB;
+		box-shadow: 0 16px 10px #E3E7EB;
+		background-color: white;
+		position: relative;
+		z-index: -2;
+}
+
+.footer__author{
+	width: 30px;
 }

@@ -21,9 +21,13 @@ const sendMail = () => {
   window.location.href =
     "mailto:" + username.substring(0) + "@" + domain.substring(0);
 };
-document.getElementById("fake_address").addEventListener("click", sendMail);
+document
+  .getElementById("fake_address")
+  .addEventListener("click", sendMail);
 
-document.getElementById("business-mail").addEventListener("click", sendMail);
+document
+  .getElementById("business-mail")
+  .addEventListener("click", sendMail);
 
 const validateEmail = e => {
   if (validator.validate(document.getElementById("email").value)) {
@@ -38,3 +42,14 @@ let form = document.getElementsByClassName("form");
 Array.from(form).forEach(function(element) {
   element.addEventListener("submit", validateEmail);
 });
+
+function detectmob() {
+  if (window.innerWidth <= 800 && window.innerHeight <= 600) {
+    document
+      .getElementsByClassName("nav-01")[0]
+      .classList.add("is-hidden");
+  } else {
+    return false;
+  }
+}
+detectmob();
