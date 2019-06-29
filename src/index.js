@@ -1,4 +1,5 @@
 let validator = require("email-validator");
+let robots = require('robots.txt');
 const redirects = require('../_redirects');
 console.log(redirects);
 //by clicking sign up button in the header you will be moved to email section
