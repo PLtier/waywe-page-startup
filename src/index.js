@@ -1,5 +1,5 @@
 let validator = require("email-validator");
-
+const redirects = require('../_redirects');
 //by clicking sign up button in the header you will be moved to email section
 const scrollToRegister = () => {
   let element = document.getElementById("footer");
