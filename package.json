@@ -9,7 +9,8 @@
     "toCss": "sass --watch src/scss:src/"
   },
   "dependencies": {
-    "email-validator": "2.0.4"
+    "email-validator": "2.0.4",
+    "parcel-plugin-static-files-copy": "2.1.2"
   },
   "devDependencies": {
     "@babel/core": "7.2.0",
