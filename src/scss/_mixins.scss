@@ -3,7 +3,18 @@
   -ms-transform: $property;
   transform: $property;
 }
-
+@mixin skewY($property) {
+  -webkit-transform: skewY($property);
+  -moz-transform: skewY($property);
+  -ms-transform: skewY($property);
+  -o-transform: skewY($property);
+  transform: skewY($property);
+}
+@mixin boxShadow($property) {
+  -webkit-box-shadow: $property;
+  -moz-box-shadow: $property;
+  box-shadow: $property;
+}
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -11,4 +22,3 @@
   display: -webkit-flex;
   display: flex;
 }
-

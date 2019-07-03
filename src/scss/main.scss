@@ -1,4 +1,4 @@
-@import "_extends.scss";
+//This is main css file of the project. It has been taken from the https://unicornplatform.com.
 @import "_mixins.scss";
 @import "_typography.scss";
 @import "_variables.scss";
@@ -618,46 +618,61 @@ button.button {
 	z-index: 50;
 }
 
-.header-54 {
-	height: 100vh;
-}
-@media (max-width: 900px) {
-	.header-54 {
-		height: auto;
-	}
+
+.explanation--people{
+	margin: 100px 0px 50px 0px;
 }
 
-.header-54__wrapper {
+.explanation--firms{
+margin: 50px 0px 100px 0px;
+}
+
+@media (max-width: 900px) {
+	div .explanation {
+		height: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+%explanation__wrapper{
 	position: relative;
 	display: flex;
 	height: 100%;
 }
+
+.explanation__wrapper {
+	@extend %explanation__wrapper;
+}
+.explanation__wrapper--reverse{
+@extend %explanation__wrapper;
+flex-direction: row-reverse;
+}
 @media (max-width: 900px) {
-	.header-54__wrapper {
+	.explanation__wrapper {
 		display: block;
 	}
 }
 
-.header-54__left,
-.header-54__right {
+.explanation__left,
+.explanation__right {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	width: 50%;
 }
 @media (max-width: 900px) {
-	.header-54__left,
-	.header-54__right {
+	.explanation__left,
+	.explanation__right {
 		width: 100%;
 	}
 }
 
-.header-54__left {
+.explanation__left {
 	padding-left: 15px;
 	padding-right: 15px;
 }
 @media (max-width: 900px) {
-	.header-54__left {
+	.explanation__left {
 		padding-top: 60px;
 		padding-bottom: 40px;
 		text-align: center;
@@ -665,41 +680,47 @@ button.button {
 }
 
 @media (max-width: 900px) {
-	.header-54__right {
+	.explanation__right {
 		padding: 60px 30px;
 	}
 }
 
-.header-54__left_content {
+.explanation__left_content {
 	max-width: 600px;
 }
 
-@media (min-width: 900px){.header-54__left_content{
+
+
+@media (min-width: 900px){.explanation__left_content{
 	position: relative;
 	left: 50px;
-}}
+}
+div .explanation__left_content--reverse{
+	left: -24px;
+}
+}
 
 
-.header-54__text {
+.explanation__text {
 	max-width: 600px;
 	margin-bottom: 40px;
 }
 @media (max-width: 900px) {
-	.header-54__text {
+	.explanation__text {
 		margin-left: auto;
 		margin-right: auto;
 	}
 }
 
-.header-54__mockup {
+.explanation__mockup {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
 }
-.header-54__mockup .mockup {
+.explanation__mockup .mockup {
 	width: 100%;
 }
-.header-54__mockup .mockup__case {
+.explanation__mockup .mockup__case {
 	margin: auto;
 }
 
@@ -736,7 +757,7 @@ button.button {
 }
 
 .header-55__heading {
-	
+
 	margin-left: auto;
 	margin-right: auto;
 }

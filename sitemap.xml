@@ -1,55 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://wayweapp.com</loc>
     <image:image>
-      <image:loc>https://wayweapp.com/appSs.634aea53.svg</image:loc>
-      <image:title>Waywe App Screen Shoot</image:title>
+      <image:loc>https://wayweapp.com/wayweLogo.5b411daf.svg</image:loc>
+      <image:title>Waywe Startup Logo</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/appStore.8eccddfc.svg</image:loc>
+      <image:loc>https://wayweapp.com/headerPhotoWithWalkingGuy.70c1e473.jpg</image:loc>
+      <image:title>Waywe Startup Background Image</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/appStore.2d86a1e1.svg</image:loc>
       <image:title>App Store button</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/cloud.11cf6cab.png</image:loc>
-      <image:title>Cloud Icon</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://wayweapp.com/facebook.e84fcb13.svg</image:loc>
-      <image:title>Facebook Icon</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://wayweapp.com/googleStore.7018233f.svg</image:loc>
+      <image:loc>https://wayweapp.com/googleStore.e549befe.svg</image:loc>
       <image:title>Google Store button</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/grid.8cb3868c.png</image:loc>
-      <image:title>Grid Icon</image:title>
+      <image:loc>https://wayweapp.com/rewardedPointsScreen.a9421a50.svg</image:loc>
+      <image:title>Waywe App Screen Shoot</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/instagram.7f11e2ea.svg</image:loc>
-      <image:title>Instagram Icon</image:title>
+      <image:loc>https://wayweapp.com/statsScreen.259bbd66.svg</image:loc>
+      <image:title>Waywe Stats Screen</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/sun.90593ca4.png</image:loc>
-      <image:title>Sun Icon</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://wayweapp.com/testfourbig.fb33c27c.jpg</image:loc>
-      <image:title>Waywe Startup Background Imgage</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://wayweapp.com/triangle.e8ba9b69.svg</image:loc>
+      <image:loc>https://wayweapp.com/triangleDiagram.f22ef1c4.svg</image:loc>
       <image:title>Waywe Startup Benefits Diagram</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/twitter.8a2fad7e.svg</image:loc>
-      <image:title>Twitter Icon</image:title>
+      <image:loc>https://wayweapp.com/cloud.3deccd41.png</image:loc>
+      <image:title>Cloud Icon</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://wayweapp.com/wayweLogoFinall.df504861.svg</image:loc>
-      <image:title>Waywe Startup Logo</image:title>
+      <image:loc>https://wayweapp.com/sun.66c75f21.png</image:loc>
+      <image:title>Sun Icon</image:title>
     </image:image>
-  </url> 
-</urlset> 
+    <image:image>
+      <image:loc>https://wayweapp.com/grid.bd0fb55a.png</image:loc>
+      <image:title>Grid Icon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/facebook.3afa7f9e.svg</image:loc>
+      <image:title>Facebook Icon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/instagram.b2e3e4e8.svg</image:loc>
+      <image:title>Instagram Icon</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://wayweapp.com/twitter.f22ba550.svg</image:loc>
+      <image:title>Twitter Icon</image:title>
+    </image:image>
+  </url>
+</urlset>
