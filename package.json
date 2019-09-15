@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "clean": "rm dist/bundle.js"
+    "clean": "rm dist/*"
   },
   "dependencies": {
     "email-validator": "2.0.4",
