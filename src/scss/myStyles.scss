@@ -105,8 +105,16 @@ underline {
   font-size: 2em;
 }
 
+.store-button {
+	display: inline-block;
+	height: 44px;
+	width: 136px;
+	text-align: center;
+}
+
+
 .heading-button {
-  width: 278px;
+  width: 288px;
 }
 
 .features-02__number:before {
@@ -127,6 +135,13 @@ underline {
 .features-02__description {
   font-size: 20px;
   font-weight: 600;
+  margin-bottom: 0;
+}
+
+@media (max-width: 900px){
+  div .features-02__description{
+  margin-bottom: 1em;
+}
 }
 
 .features-02__item_box {
@@ -295,5 +310,11 @@ div .win-win {
 }
 
 .footer__author {
-  width: 30px;
+  width: 54px;
+  height: 54px;
+  float: right;
+}
+.footer__contribution{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.55em;
 }
