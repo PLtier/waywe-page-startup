@@ -1,25 +1,9 @@
-# Waywe App Website
+# Hi 👋
+It's page of my former startup, but I leave it here because as a part of my portolio. Site is suited for both desktop and mobile use.
 
-This is the repository of [Waywe App Website](https://wayweapp.com).
-
-## About
-
-Page purpose it to validate & promote Waywe App Startup - a revolutionary marketing platform,
-thanks to which business can be effectively promoted and people can earn money by doing the things
-they have always been doing.
-
-## Technical
-
-Project runs on ParcelJS
-Created With
-
--   Javascript
--   SCSS
--   HTML
-    In CSS and HTML BEM methodology is applied
-
-[Dependencies](https://github.com/PLtier/waywe-page-startup/blob/master/package.json)
-
-## Author
-
-[Maciej Jałocha](https://maciejjalocha.com)
+## Stack ⚙️
+* Vanilla Javascript
+* ParcelJS v1 and Babel
+* SCSS
+* [email-validator](https://www.npmjs.com/package/email-validator) to validate emails. 
+* Netlify Forms to collect emails.
